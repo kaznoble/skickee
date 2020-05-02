@@ -34,7 +34,7 @@
 			</div>
 			<div class="col-md-6" >
 				Please enter number of widget: 
-				<input type="text" class="form-control" name="txt_widget" />
+				<input type="text" class="form-control" name="txt_widget" value="<?php echo (!empty($vWidget) ? $vWidget : '') ?>" />
 				<input type="submit" class="form-control btn-primary" value="SUBMIT" />
 			</div>
 		</div>
